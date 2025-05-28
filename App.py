@@ -39,7 +39,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with st.sidebar:
-    img = Image.open(".Assets/screw-cartoon.png")
+    img = Image.open("./Assets/screw-cartoon.png")
     st.image(img)
     st.subheader("About Screw Anomaly Detector")
     st.write(
