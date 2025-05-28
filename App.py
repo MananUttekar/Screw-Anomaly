@@ -86,7 +86,7 @@ elif input_method == "Camera Input":
 # Load Keras model
 @st.cache_resource
 def load_keras_model():
-    model_path = r"C:\Users\VICTUS\Downloads\IntelAI\Week 13 - Dependencies\Dependencies\InspectorsAlly - Anomaly Detection\keras_model.h5"
+    model_path = r"keras_model.h5"
     model = load_model(model_path)
     return model
 
